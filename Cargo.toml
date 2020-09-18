@@ -1,0 +1,11 @@
+[package]
+name = "seed_css"
+version = "0.1.0"
+authors = ["Philip Koperski <philip@pretzelwagon.com>"]
+edition = "2018"
+
+[dependencies]
+seed = { git = "https://github.com/seed-rs/seed", rev = "0a538f0" }
+ordered-float = "2.0.0"
+derive_more = "0.99.10"
+rust-hsluv = "0.1.4"
